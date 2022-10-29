@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    background-color: #E5E5E5;
+}
+.tudo {
+    height: 100%;
+    width: 100%;
+}
+.menu-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.menu-top img {
+    width: 75px;
+    height: 53px;
+}
+.menu-top ion-icon{
+    width: 42px;
+    Height: 30px
+}
+.chat{
+    margin-top:100px ;
+    background-color: #E5E5E5;
+    margin-bottom: 90px;
+    width: 100%;
+}
+.p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.reservado .p {
+    word-wrap: break-word;
+   
+
+}
+
+.status {
+    width: 100%;
+    background-color: gray;
+    height: auto;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+}
+.reservado{
+    height: auto;
+    width: 100%;
+    background-color: #FFDEDE;
+    margin-top: 5px;
+    display: flex; 
+    word-wrap: break-word;
+    align-items: center;
+}
+
+  
+
+.message{
+    height: auto;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+}
+.enviar-msg{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+.mensagem1{
+    width: 100%;
+}
+.mensagem2{
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.enviar-msg ion-icon{
+    display: flex;
+    right: 15px;
+    height: 26px;
+    width: 26px;
+    margin: 15px;
+    position: absolute;
+
+}
+.msg{
+    border: none;
+    width: 80%;
+    height: 64px;
+}
+.msg input{
+    border: none
+}
+.negrito{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
