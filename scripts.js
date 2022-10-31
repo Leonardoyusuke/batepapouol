@@ -137,11 +137,13 @@ function enviarMsg(){
     const enviarMensagem = axios.post("https://mock-api.driven.com.br/api/v6/uol/messages",msg);
     enviarMensagem.then(mensagemEnviada);
     enviarMensagem.catch(mensagemNaoEnviada);
+
 }
 
 function mensagemEnviada (){
+    carregarChat()
 
 }
 function mensagemNaoEnviada(){
-    console.log("errado")
+    novoUsuario()
 }
